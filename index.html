@@ -7,21 +7,32 @@
 </head>
 <body>
     <h1>Web Programing</h1>
-    <P>
+    <a href="https://hac.ac.il">
+        <img src="/images/hac.png" width="150px" height="150px"/>
+    </a>
+    <p>
     my freindes is:
+    <ul>
         <li>moshe</li>
         <li>yischak</li>
         <li>yehiel</li>
         <li>zarach</li>
-    </P>
+    </ul>
+    </p>
     <p>
         <form action="/" method="get">
-        <label for="name">name:</label>
-        <input type="text" id="name" name="name" pattern="^[A-Za-z]+[A-Za-z ]*$" required />
-        <label for="name">name:</label>
-        <input type="text" pattern="^[A-Za-z]+[A-Za-z ]*$" required/>
-        <label for="name">name:</label>
-        <input type="text" pattern="^[A-Za-z]+[A-Za-z ]*$" required/>
+        <label for="name">name:</label><br>
+        <input type="text" id="name" name="name" pattern="^[A-Za-z]+[A-Za-z ]*$" required /><br>
+
+        <label for="email">your email:</label><br>
+        <input type="email" id="email" name="name"  required /><br>
+
+        <label for="year">your year:</label><br>
+        <input type="number" id="year" name="year" min="1" max="4" required /><br>
+
+        <input type="submit" id="sub" value="submit" />
+        <input type="reset" id="res" value="reset" /><br>
+
         </form>
     </p>
 
